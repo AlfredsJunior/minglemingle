@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811525792117",
+    "firebase_url": "https://minglemingle-15a57.firebaseio.com",
+    "project_id": "minglemingle-15a57",
+    "storage_bucket": "minglemingle-15a57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811525792117:android:415df1ff04f5d078",
+        "android_client_info": {
+          "package_name": "com.alfredtechsystems.minglemingle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811525792117-a8dh2baj9f6u4jc2vrh9379ghaaa21lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alfredtechsystems.minglemingle",
+            "certificate_hash": "a3e0ed5f75a4062a38b22ccc73b4520c26dba2d7"
+          }
+        },
+        {
+          "client_id": "811525792117-iov40qi9g41r314blvff2rkgsfm1k72b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTe16J-j8E_YJA0B6wRH73GPMjDQAYKAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811525792117-iov40qi9g41r314blvff2rkgsfm1k72b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

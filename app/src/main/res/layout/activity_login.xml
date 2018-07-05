@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alfredtechsystems.minglemingle.Login"
+    android:background="@drawable/lightening"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" MingleMingle Dating "
+            android:layout_marginLeft="75dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorActionBar"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:hint="Email address"
+            android:textColor="@color/colorActionBar" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:hint="************"
+            android:textColor="@color/colorActionBar" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:onClick="activity_home"
+            android:text=" Log in" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/welcome_text"
+            android:layout_marginEnd="11dp"
+            android:layout_marginTop="13dp"
+            android:text="Sign Up"
+            >
+
+        </Button>
+            <TextView
+                android:id="@+id/password_forgotten"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Forgotten password?"
+                android:textColor="@color/colorActionBar"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/login_button"
+                android:contextClickable="true"
+                >
+
+            </TextView>
+
+
+        <com.facebook.login.widget.LoginButton
+
+            android:id="@+id/fb_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
